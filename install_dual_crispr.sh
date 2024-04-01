@@ -3,7 +3,7 @@ bash miniconda_py3.sh -b -p $HOME/miniconda3
 echo "export PATH=\"$HOME/miniconda3/bin:\$PATH\"" >>$HOME/.bashrc
 source $HOME/.bashrc		
 conda update conda -y
-conda install python=3.5 -y
+conda install python=3 -y
 conda config --add channels bioconda
 conda config --add channels r
 conda config --add channels ccbbucsd
